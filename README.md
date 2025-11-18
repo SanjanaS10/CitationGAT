@@ -15,12 +15,6 @@ The pipeline progresses from **semantic embedding extraction** to **robust tenso
 - Encode using `sentence-transformers` (`allenai/specter`,`scibert_scivocab_uncased`)
 - Save embeddings and metadata for downstream GAT integration
 
-**Deliverables**
-embeddings_output/
-│── contrastive_embeddings_hybrid.npy
-│── ogbn_arxiv_metadata.csv
-│── visual_check.png
-│── validation_results.txt
 
 ## Objective
 To construct **semantic representations of scientific papers** using pretrained language models, forming the foundation for multimodal graph learning.
@@ -32,7 +26,7 @@ To construct **semantic representations of scientific papers** using pretrained 
 
 ---
 
-### **Phase 2 - GAT + Language Fusion Baseline **
+### **Phase 2 - GAT + Language Fusion Baseline**
 **Goal:** Integrate structural and textual embeddings into a hybrid GAT.
 
 **Tasks**
@@ -41,11 +35,6 @@ To construct **semantic representations of scientific papers** using pretrained 
 - Evaluate Accuracy, F1, attention entropy
 - Store results and best model
 
-**Deliverables**
-fusion_output/
-│── gat_lm_model.pt
-│── fusion_results.csv
-│── training_curves.png
 
 
 ---
@@ -77,17 +66,9 @@ robustness_output/
 - Compare models: GAT, GAT+LM, Tensorized GAT+LM
 - Record performance & interpretability metrics
 
-**Deliverables**
-tensorized_output/
-│── tensorized_gat_model.pt
-│── tensorized_results.csv
-│── comparison_plots.png
-
-
-
-
----
+ 
 
  
+
 
  
