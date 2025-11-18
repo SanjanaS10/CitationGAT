@@ -1,4 +1,4 @@
-# TensorGAT: Robust Tensorized Graph Attention Networks for Intelligent Citation Analysis
+# CitationGAT: Robust Tensorized Graph Attention Networks for Intelligent Citation Analysis
 
 ## Overview
 **TensorGAT** is a multi-stage research project exploring how **Language Models**, **Graph Attention Networks (GAT)**, and **Tensorized Attention** can jointly enhance citation understanding and robustness in academic graphs.  
@@ -72,3 +72,4 @@ robustness_output/
 
 
  
+
