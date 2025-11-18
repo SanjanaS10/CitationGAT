@@ -1,0 +1,35 @@
+{
+  "created_at": "20251106_092723",
+  "source_dir": "/content/drive/MyDrive/citation_project/fusion_output",
+  "handoff_dir": "/content/drive/MyDrive/citation_project/fusion_output/fusion_output_handoff_20251106_092723",
+  "dataset": "ogbn-arxiv",
+  "notes": [
+    "Baseline run (Cell 2): GCN, GAT, GAT+LM",
+    "gat_lm_model.pt = GAT+LM fusion weights",
+    "fusion_results.csv = training log (epoch-wise acc/F1/entropy) for all three baselines",
+    "training_curves.png = val/test accuracy curves",
+    "README_fusion.txt = how this run was produced"
+  ],
+  "files": [
+    {
+      "file": "gat_lm_model.pt",
+      "size_bytes": 63868,
+      "sha256": "c77f1c9d33cf134331ae5e32f8222fc411290dac1999ae59ceefa97b9bdd564d"
+    },
+    {
+      "file": "fusion_results.csv",
+      "size_bytes": 83144,
+      "sha256": "c6df8560b0c612f8a13d067931d6729b39a865c3e6e4412369820382e05b4a0e"
+    },
+    {
+      "file": "training_curves.png",
+      "size_bytes": 126167,
+      "sha256": "6e4e45b31ab34e22877f26cfd838deca72d22696e26633c2ef6dbb3d08f3ff4b"
+    },
+    {
+      "file": "README_fusion.txt",
+      "size_bytes": 616,
+      "sha256": "a0c35b490b8fee04f49600e456b20da8dcbf0ad52ef5aeacd3b94832dda81fe6"
+    }
+  ]
+}
